@@ -8,9 +8,9 @@ from datetime import datetime
 
 scheduled_tasks = {}
 # Constants
-BOT_TOKEN = "8167051716:AAE242n4ytRAPfj8aV8_KFGqMX2z4PKGgug"
+BOT_TOKEN = "Enter bot token"
 TELEGRAM_API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
-GENAI_API_KEY = "AIzaSyDPDeqKsPWVb_gMS7lcRf7FcNivlh0gUVU"
+GENAI_API_KEY = "Enter Demini api key"
 
 # Task Scheduler
 scheduler = BackgroundScheduler()
