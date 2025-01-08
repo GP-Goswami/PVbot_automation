@@ -3,9 +3,9 @@ import google.generativeai as genai
 import time
 
 # Constants
-BOT_TOKEN = "8167051716:AAE242n4ytRAPfj8aV8_KFGqMX2z4PKGgug"
+BOT_TOKEN = "Enter bot token"
 TELEGRAM_API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
-GENAI_API_KEY = "AIzaSyDPDeqKsPWVb_gMS7lcRf7FcNivlh0gUVU"
+GENAI_API_KEY = "Enter gemini api key"
 
 # Initialize Generative AI (Gemini)
 genai.configure(api_key=GENAI_API_KEY)
